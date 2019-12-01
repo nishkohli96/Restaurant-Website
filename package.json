@@ -8,6 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "scss": "node-sass -o css/ css/",
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
@@ -19,10 +20,14 @@
 =======
     "scss": "node-sass -o css/ css/"
 >>>>>>> 5fae1647d3b264d109517a9f1589b6f9dbf2ca6d
+=======
+    "scss": "node-sass -o css/ css/"
+>>>>>>> 5fae1647d3b264d109517a9f1589b6f9dbf2ca6d
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+<<<<<<< HEAD
 <<<<<<< HEAD
     "cssmin": "^0.4.3",
     "grunt": "^1.0.4",
@@ -40,6 +45,10 @@
     "uglify-js": "^3.7.0",
     "uglifyjs": "^2.4.11",
     "usemin-cli": "^0.5.1"
+=======
+    "lite-server": "^2.3.0",
+    "node-sass": "^4.13.0"
+>>>>>>> 5fae1647d3b264d109517a9f1589b6f9dbf2ca6d
 =======
     "lite-server": "^2.3.0",
     "node-sass": "^4.13.0"
