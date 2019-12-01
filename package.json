@@ -7,8 +7,6 @@
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server",
-<<<<<<< HEAD
-<<<<<<< HEAD
     "scss": "node-sass -o css/ css/",
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
@@ -17,18 +15,10 @@
     "imagemin": " imagemin img/* -o --out-dir dist/img",
     "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html ",
     "build": "npm run clean && npm run copyfonts && npm run imagemin && npm run usemin"
-=======
-    "scss": "node-sass -o css/ css/"
->>>>>>> 5fae1647d3b264d109517a9f1589b6f9dbf2ca6d
-=======
-    "scss": "node-sass -o css/ css/"
->>>>>>> 5fae1647d3b264d109517a9f1589b6f9dbf2ca6d
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-<<<<<<< HEAD
-<<<<<<< HEAD
     "cssmin": "^0.4.3",
     "grunt": "^1.0.4",
     "grunt-browser-sync": "^2.2.0",
@@ -45,14 +35,6 @@
     "uglify-js": "^3.7.0",
     "uglifyjs": "^2.4.11",
     "usemin-cli": "^0.5.1"
-=======
-    "lite-server": "^2.3.0",
-    "node-sass": "^4.13.0"
->>>>>>> 5fae1647d3b264d109517a9f1589b6f9dbf2ca6d
-=======
-    "lite-server": "^2.3.0",
-    "node-sass": "^4.13.0"
->>>>>>> 5fae1647d3b264d109517a9f1589b6f9dbf2ca6d
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
